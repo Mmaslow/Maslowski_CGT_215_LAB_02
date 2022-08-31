@@ -9,11 +9,10 @@ int main()
 {
 	cout << "Hello my name is Michael and I will solve this equation: " << endl;
 	cout << "Ax + B = 0" << endl;
-	cout << "For x" << endl;
+	cout << "For x\n" << endl;
 	float A;
 	float B;
 	float X;
-	cout << endl;
 	cout << "Please enter a value for A: ";
 	cin >> A;
 	cout << "Please enter a value for B: ";
