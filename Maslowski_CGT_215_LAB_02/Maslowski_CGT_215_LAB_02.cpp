@@ -3,9 +3,27 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	cout << "Hello my name is Michael and I will solve this equation: " << endl;
+	cout << "Ax + B = 0" << endl;
+	cout << "For x" << endl;
+	float A;
+	float B;
+	float X;
+	cout << endl;
+	cout << "Please enter a value for A: ";
+	cin >> A;
+	cout << "Please enter a value for B: ";
+	cin >> B;
+	cout << endl;
+	cout << "Solving " << A << "x+" << B << "=0 for x" << endl;
+	X = (0 - B) / A;
+	cout << endl;
+	cout << "The answer is: " << endl;
+	cout << "x=" << X << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
